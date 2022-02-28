@@ -1,5 +1,7 @@
-flask~=2.0.2
-wtforms~=3.0.1
-gunicorn==20.1.0
+flask
+wtforms
+gunicorn
+email-validator
 flask_bootstrap
+flask_wtf
 psycopg2-binary
