@@ -1,0 +1,182 @@
+{% import "bootstrap/wtf.html" as wtf %}
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Scott Harrington</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="../static/css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="'../static/css/styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+    </script>
+    <script src="https://kit.fontawesome.com/43fda37f7e.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+
+
+
+</body>
+<section id="title">
+
+    <!-- Nav Bar -->
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01"
+            aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+            <a class="navbar-brand">Scott Harrington</a>
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                <li class="nav-item"><a class="nav-link" href="#skills">About</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!--Title Image-->
+    {% with messages = get_flashed_messages() %}
+            {% if messages %}
+                {% for message in messages %}
+                    <div class="flash dark-bg center-align container-fluid">
+                        <h2 class="flash-text">{{ message }}</h2>
+                    </div>
+                {% endfor %}
+            {% endif %}
+    {% endwith %}
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-8 light-bg" id="title-section-card-left">
+                <div class="fade-in">
+                    <image src="../static/images/cloud.png" class="cloud-primary"></image>
+                    <h1 class="margin-lg-vertical center-align">"If you set your goals ridiculously high and it's a failure,
+                                                                you will fail above everyone else's success"</h1>
+                    <div class="image-wrapper align-right">
+                        <image src="../static/images/cloud.png" class="cloud-secondary"></image>
+                    </div>
+                    <image src="../static/images/skyscraper.png" id="skyscraper"></image>
+                </div>
+            </div>
+            <div class="col-lg-4 center-align tan-bg">
+                <div class="fade-in">
+                    <div class="row margin-md-vertical">
+                        <h3>Hi! I'm Scott.</h3>
+
+                    </div>
+                    <div class="row margin-md-vertical">
+                        <image src="../static/images/businessman.png" class="center"></image>
+
+                    </div>
+                    <div class="row margin-sm-vertical">
+                        <h4><strong>Tampa, Florida</strong></h4>
+                        <h6><em>Sales Profesional, Leader, Programmer</em></h6>
+                        <div class="media">
+                            <a href="https://www.instagram.com/aeydesai/?hl=en" class="media-link"><image src="../static/images/instagram.png"></image></a>
+                            <a href="https://www.linkedin.com/in/scott-harrington-226454230/" class="media-link"><image src="../static/images/linkedin-logo.png"></image></a>
+                            <a href="https://twitter.com/Steve_Desai_" class="media-link"><image src="../static/images/twitter.png"></image></a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="title-buttons">
+                            <a href="#contact" class="btn btn-outline-dark margin-sm-vertical">Contact Me</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<section id="skills" class="semi-dark-bg container-fluid">
+    <h1 class="center-align">My Skills</h1>
+    <div class="row fade-in">
+        <div class="col-lg-4">
+            <div class="card center-align border-dark" id="card-1">
+                <img class="card-img-top" src="../static/images/salesman.png" alt="Card image cap">
+                <div class="card-body center-align">
+                    <h5 class="card-title">Sales</h5>
+                    <p class="card-text">I am a highly skilled sales professional with a proven track record of success in a process driven sales environment. I am a firm believer in the 300% rule.
+                    </p>
+                    <br>
+                    <p class="card-text"><strong>My experience includes:</strong></p>
+                    <br>
+                    <ul class="card-text">
+                        <li>Prospecting</li>
+                        <li>Needs Analysis</li>
+                        <li>Negotiation</li>
+                        <li>Objection Handling</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4">
+            <div class="card center-align border-dark" id="card-2">
+                <img class="card-img-top" src="../static/images/teamwork.png" alt="Card image cap">
+                <div class="card-body center-align">
+                    <h5 class="card-title">Leadership</h5>
+                    <p class="card-text">My management style involves a one on one approach; designed to motivate and enable each and every member
+                         of the team to reach their full potential. 
+                    </p>
+                    <br>
+                    <p class="card-text"><strong>My Leadership Roles:</strong></p>
+                    <br>
+                    <ul class="card-text">
+                        <li>Financial Services Manager</li>
+                        <li>Founder of Jet Society Inc.</li>
+                        <li>Sales Manager</li>
+                        <li>Owner of Great Neck Pools</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4">
+            <div class="card center-align border-dark" id="card-3">
+                <img class="card-img-top" src="../static/images/hacker.png" alt="Card image cap">
+                <div class="card-body center-align">
+                    <h5 class="card-title">Programming</h5>
+                    <p class="card-text">Beyond my experience in sales and leadership, I also have developed a strong knowledge of HTML, CSS, and Python. This website was my very first project! 
+                    </p>
+                    <br>
+                    <p class="card-text"><strong>Programs I Have Developed:</strong></p>
+                    <br>
+                    <ul class="card-text">
+                        <li>Automated Online Shoppers</li>
+                        <li>Password Managers</li>
+                        <li>Webscraping Software</li>
+                        <li>Custom Text Message Alerts</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+<section id="contact" class="dark-bg">
+            <h1 class="center-align fade-in">Get In Touch.</h1>
+
+            {{ wtf.quick_form(form) }}
+
+
+
+
+</section>
+
+
+</html>

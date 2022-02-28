@@ -1,0 +1,241 @@
+/* Universal Style Options */
+@keyframes fadeInOpacity {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+.fade-in {
+	opacity: 1;
+	animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 1s;
+}
+
+
+.light-bg {
+    background-color: #EEEDDE;
+}
+
+.tan-bg {
+    background-color: #E0DDAA;
+}
+
+.semi-dark-bg {
+    background-color: #203239;
+    color: #EEEDDE;
+}
+.dark-bg {
+    background-color: #141E27;
+    color: #EEEDDE;
+}
+.bone-bg {
+    background-color: #F1F2F6;
+}
+
+
+.center-align {
+    text-align: center;
+    align-items: center;
+}
+
+.align-right {
+    text-align: right;
+}
+
+.align-left {
+    text-align: left;
+}
+
+
+.margin-lg-vertical {
+    margin: 150px 0px;
+}
+
+.margin-md-vertical {
+    margin: 15% 0%;
+}
+
+.margin-sm-vertical {
+    margin: 5% 0%;
+}
+
+.padding-lg-vertical {
+    padding: 150px 0px;
+}
+
+.padding-md-vertical {
+    padding: 75px 0px;
+}
+
+.padding-sm-vertical {
+    padding: 25px 0px;
+}
+
+.padding-lg-horizontal {
+    padding: 0px 150px;
+}
+
+.padding-md-horizontal {
+    padding: 0px 75px;
+}
+
+.padding-sm-horizontal {
+    padding: 0px 25px;
+}
+
+img.center {
+    display: block;
+    margin: 0 auto;
+}
+
+
+
+/*Title Section Styling */
+
+#title button {
+    margin-left: 25px;
+    margin-right: 25px;
+
+}
+
+title-section-card-left h1 {
+    margin: 0%, 10%;
+}
+
+#title img {
+    width:40%;
+}
+
+.title-buttons {
+    margin-top: 50px;
+}
+
+#title button a {
+    text-decoration: none;
+    color: black;
+}
+
+#title button a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+#skyscraper {
+    max-width: 25%;
+    max-height: auto;
+    margin-top: -15%;
+}
+
+.cloud-secondary {
+    max-width: 15%;
+    margin-top:-35%;
+    margin-right: 50px;
+
+}
+.cloud-primary {
+    max-width: 15%;
+    margin-bottom:-30%;
+    margin-left: 50px;
+
+}
+
+#title-section-card-left h1 {
+    margin: 25% 10%;
+
+}
+
+.media {
+    display: flex;
+    justify-content: center;
+ }
+
+.media-link {
+    margin: 7% 2% 0% 2%;
+    width: 10%;
+}
+
+
+
+
+/* skills section */
+
+#skills h1{
+    padding: 5% 0% 0% 0%;
+    font-size: 350%;
+}
+
+#skills ul {
+    display: inline-block;
+    text-align: left;
+}
+
+.card img {
+    width: 25%;
+    margin: 8% 0% 5% 0%;
+
+}
+
+.card {
+    margin: 10% 5%;
+    background-color: #203239;
+    border: none;
+}
+
+.card-body h5 {
+    margin-bottom: 10%;
+    font-size: 200%;
+}
+
+.card-body {
+    padding: 0% 10%;
+}
+
+.indent {
+    text-indent: 20px;
+}
+
+
+#card-1 .card-body {
+    padding-bottom: 6%;
+}
+#card-2 .card-body {
+    padding-bottom: 6%;
+}
+
+#card-3 .card-body {
+    padding-bottom: 6%;
+}
+
+/* Contact Section Styling */
+#contact h1{
+    padding: 5% 0% 5% 0%;
+    font-size: 350%;
+    }
+
+
+.form {
+padding: 5% 15% 5% 15%;
+}
+.form-group {
+    margin-bottom: 3%;
+}
+
+.form .btn {
+    background-color: #4287f5;
+    margin-top: 2%;
+}
+
+.flash {
+    margin: 0px;
+    padding: 2% 0%;
+}
+
+.flash-text {
+    margin: 1% 5%;
+}
+
