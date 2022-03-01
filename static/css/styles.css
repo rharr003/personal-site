@@ -304,6 +304,7 @@ font-size: 1.5rem;
 
     .form .btn {
         font-size: 50px;
+        margin-left: 45%;
     }
 
     .cloud-secondary {
@@ -349,12 +350,20 @@ font-size: 1.5rem;
         display:inline-block;
         padding:15px 10px;
         line-height:200%;
-        font-size: 35px;
+        font-size: 40px;
     }
 
     .control-label {
         font-size: 45px;
 
+    }
+
+    #contact h1{
+        font-size: 60px;
+    }
+
+    #skills h1{
+        font-size: 60px;
     }
 }
 
