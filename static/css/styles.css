@@ -326,7 +326,16 @@ font-size: 1.5rem;
     }
 
     .navbar {
-        font-size: 40px;
+        font-size: 60px;
+    }
+
+    .navbar-brand {
+        font-size: 80px;
+    }
+
+    .navbar-toggler-icon {
+        height: 50px;
+        width: 50px;
     }
 
 }
