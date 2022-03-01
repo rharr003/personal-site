@@ -167,7 +167,7 @@ font-size: 1rem;
 
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 900px) {
 #title h3 {
     font-size: 5rem;
 }
