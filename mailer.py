@@ -1,20 +1,17 @@
 from smtplib import SMTP
+from twilio.rest import Client
 
 
 class Mailer:
 
     def __init__(self, receiver):
-        self.email = "pythontest1226@gmail.com"
-        self.password = "Dissidia1!"
+        self.sid = "ACdcbccef757b3123bbaa9ed88b9aae82e"
+        self.token = "576f8c3cd4c0dfba6e8644c118547293"
         self.receiver = receiver
+        self.sender = "19206268558"
 
 
     def sendmail(self, message):
-        with SMTP("smtp.gmail.com") as connection:
-            connection.starttls()
-            connection.login(self.email, self.password)
-            connection.sendmail(
-                from_addr=self.email,
-                to_addrs=self.receiver,
-                msg=f"Subject:New Message on Your Personal Website!\n\n{message}"
-            )
+
+        client = Client(self.sid, self.token)
+        client.messages.create(body=message, from_=self.sender, to=self.receiver)
