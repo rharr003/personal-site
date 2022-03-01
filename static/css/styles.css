@@ -175,7 +175,7 @@ font-size: 1rem;
 
 .media-link {
     margin: 7% 2% 0% 2%;
-    width: 7rem;
+    width: 5rem;
 }
 
 
@@ -345,6 +345,11 @@ font-size: 1.5rem;
        padding-left: 40px;
     }
 
+    .form-group {
+        display:inline-block;
+        padding:15px 10px;
+        line-height:140%;
+    }
 }
 
 
