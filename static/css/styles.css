@@ -348,8 +348,13 @@ font-size: 1.5rem;
     .form-control {
         display:inline-block;
         padding:15px 10px;
-        line-height:250%;
-        font-size: 30px;
+        line-height:200%;
+        font-size: 35px;
+    }
+
+    .control-label {
+        font-size: 45px;
+
     }
 }
 
