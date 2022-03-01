@@ -30,7 +30,7 @@ def home():
             mailer = Mailer(receiver='7574776187')
             message_to_send = f"Name: {name}\n\nEmail Address: {email}\n\nMessage: {message}"
             mailer.sendmail(message_to_send)
-            flash(f'Message {name}! I will get back to you as soon as I can!')
+            flash(f"Thanks {name.split(' ')[0]}! I will get back to you as soon as I can!")
             return redirect(url_for('home'))
     return render_template("index.html", form=form)
 
