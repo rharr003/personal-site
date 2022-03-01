@@ -269,21 +269,21 @@ font-size: 1.5rem;
 
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 750px) {
     #title h3 {
-        font-size: 1000px;
+        font-size: 5rem;
     }
 
     #title h4 {
-        font-size: 10rem;
+        font-size: 3rem;
     }
 
     #title h6 {
-        font-size: 10rem;
+        font-size: 2rem;
     }
 
     #title .btn {
-        font-size: 10rem;
+        font-size: 1.25rem;
     }
 
 }
