@@ -270,6 +270,10 @@ font-size: 1.5rem;
 }
 
 @media screen and (max-width: 1000px) {
+    body{
+        overflow-x:hidden;
+    }
+
     #title h3 {
         font-size: 100px;
     }
