@@ -290,6 +290,10 @@ font-size: 1.5rem;
         width: 150px;
     }
 
+    #title-section-card-left h1 {
+        font-size: 60px;
+    }
+
 }
 
 
