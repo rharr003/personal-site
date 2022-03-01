@@ -330,12 +330,14 @@ font-size: 1.5rem;
     }
 
     .navbar-brand {
-        font-size: 80px;
+        font-size: 60px;
     }
 
     .navbar-toggler-icon {
-        height: 50px;
-        width: 50px;
+        height: 125px;
+        width: 125px;
+        padding-top: 20px;
+        padding-bottom: 20px;
     }
 
 }
