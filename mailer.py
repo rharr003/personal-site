@@ -1,4 +1,3 @@
-from smtplib import SMTP
 from twilio.rest import Client
 
 
@@ -12,6 +11,5 @@ class Mailer:
 
 
     def sendmail(self, message):
-
         client = Client(self.sid, self.token)
         client.messages.create(body=message, from_=self.sender, to=self.receiver)
