@@ -30,7 +30,7 @@ def home():
             mailer = Mailer(receiver='7574776187')
             message_to_send = f"Name: {name}\n\nEmail Address: {email}\n\nMessage: {message}"
             mailer.sendmail(message_to_send)
-            flash('Message Recieved! I will get back to you as soon as I can!')
+            flash(f'Message {name}! I will get back to you as soon as I can!')
             return redirect(url_for('home'))
     return render_template("index.html", form=form)
 
@@ -38,4 +38,4 @@ def home():
 
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run()
