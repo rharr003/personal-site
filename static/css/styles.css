@@ -103,8 +103,9 @@ img.center {
 
 }
 
-title-section-card-left h1 {
+#title-section-card-left h1 {
     margin: 0%, 10%;
+    font-size: 3rem;
 }
 
 #title img {
@@ -156,7 +157,7 @@ title-section-card-left h1 {
 
 .media-link {
     margin: 7% 2% 0% 2%;
-    width: 10%;
+    width: 7rem;
 }
 
 
@@ -166,7 +167,7 @@ title-section-card-left h1 {
 
 #skills h1{
     padding: 5% 0% 0% 0%;
-    font-size: 350%;
+    font-size: 3.5rem;
 }
 
 #skills ul {
@@ -188,7 +189,7 @@ title-section-card-left h1 {
 
 .card-body h5 {
     margin-bottom: 10%;
-    font-size: 200%;
+    font-size: 2rem;
 }
 
 .card-body {
@@ -214,7 +215,7 @@ title-section-card-left h1 {
 /* Contact Section Styling */
 #contact h1{
     padding: 5% 0% 5% 0%;
-    font-size: 350%;
+    font-size: 3.5rem;
     }
 
 
@@ -237,5 +238,9 @@ padding: 5% 15% 5% 15%;
 
 .flash-text {
     margin: 1% 5%;
+}
+
+.control-label {
+font-size: 1.5rem;
 }
 
