@@ -299,8 +299,12 @@ font-size: 1.5rem;
     }
 
     .card-text {
-        font-size: 30px;
+        font-size: 40px;
     }
+
+    .form .btn {
+        font-size: 50px;
+}
 
 }
 
