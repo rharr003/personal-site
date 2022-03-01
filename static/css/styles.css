@@ -269,7 +269,7 @@ font-size: 1.5rem;
 
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 500px) {
     #title h3 {
         font-size: 100px;
     }
@@ -284,6 +284,10 @@ font-size: 1.5rem;
 
     #title .btn {
         font-size: 25px;
+    }
+
+    .media-link {
+        width: 30px;
     }
 
 }
