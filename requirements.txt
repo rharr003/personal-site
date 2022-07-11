@@ -6,3 +6,4 @@ flask_bootstrap
 flask_wtf
 psycopg2-binary
 twilio
+flask_talisman
