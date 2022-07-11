@@ -1,6 +1,4 @@
-import os
 from flask import Flask, render_template, request, redirect, url_for, flash
-from flask_talisman import Talisman
 from flask_bootstrap import Bootstrap
 from flask_wtf import FlaskForm
 from wtforms import StringField, SubmitField, SelectField, EmailField, TextAreaField
@@ -10,8 +8,6 @@ from mailer import Mailer
 
 
 app = Flask(__name__)
-if 'DYNO' in os.environ:
-    Talisman(app)
 app.config['SECRET_KEY'] = '8BYkEfBA6O6donzWlSihBXox7C0sKR6b'
 Bootstrap(app)
 
