@@ -383,4 +383,9 @@ font-size: 1.5rem;
     transition: opacity 1s, transform 1s;
 }
 
+.sticky {
+ position: fixed;
+ z-index: 10;
+}
+
 
