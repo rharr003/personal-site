@@ -2,6 +2,8 @@ const smallSections = document.querySelectorAll('.section--small')
 const largeSections = document.querySelectorAll('.section--large')
 const nav = document.querySelector('.navbar')
 const title = document.querySelector('#title')
+
+
 const obsOptSmall = {
 root: null,
 threshold: 0.25
