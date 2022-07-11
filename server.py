@@ -1,4 +1,7 @@
+import os
+
 from flask import Flask, render_template, request, redirect, url_for, flash
+from flask_sslify import SSLify
 from flask_bootstrap import Bootstrap
 from flask_wtf import FlaskForm
 from wtforms import StringField, SubmitField, SelectField, EmailField, TextAreaField
@@ -11,6 +14,8 @@ app = Flask(__name__)
 app.config['SECRET_KEY'] = '8BYkEfBA6O6donzWlSihBXox7C0sKR6b'
 Bootstrap(app)
 
+if 'DYNO' in os.environ: # only trigger SSLify if the app is running on Heroku
+    sslify = SSLify(app)
 
 
 class ContactForm(FlaskForm):
