@@ -370,5 +370,17 @@ font-size: 1.5rem;
     }
 }
 
+.section--hidden {
+  opacity: 0;
+  transform: translateY(8rem);
+}
+
+.section--small {
+    transition: opacity 1s, transform 1s;
+}
+
+.section--large {
+    transition: opacity 1s, transform 1s;
+}
 
 
